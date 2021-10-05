@@ -1,11 +1,17 @@
 {
-    "name": "gelikas/tagger",
+    "name": "mansoff/tagger",
+    "autoload": {
+        "psr-4": {
+            "Tagger\\": "src/Tagger/"
+        }
+    },
     "require": {
         "mansoff/dascfg": "dev-master",
         "symfony/var-dumper": "^5.2@dev",
         "symfony/dependency-injection": "^5.2@dev",
         "symfony/routing": "^5.2@dev",
-        "symfony/http-foundation": "^5.2@dev"
+        "symfony/http-foundation": "^5.2@dev",
+        "symfony/config": "5.4.x-dev"
     },
     "minimum-stability": "dev"
 }
